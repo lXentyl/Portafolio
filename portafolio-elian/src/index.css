@@ -1004,3 +1004,104 @@ html{
   color: rgba(245,243,255,.65);
   font-size: 13px;
 }
+/* ===== Navbar responsive (móvil) ===== */
+.nav{
+  overflow: visible;
+}
+
+.nav-toggle{
+  display: none;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.03);
+  color: rgba(255,255,255,.92);
+  border-radius: 14px;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .2s ease;
+}
+.nav-toggle:hover{
+  background: rgba(255,255,255,.06);
+  box-shadow: 0 0 0 8px rgba(109,40,217,.08);
+}
+
+/* icono hamburguesa */
+.hamburger{
+  display: grid;
+  gap: 6px;
+}
+.hamburger span{
+  width: 18px;
+  height: 2px;
+  background: rgba(255,255,255,.85);
+  border-radius: 999px;
+  transition: .22s ease;
+}
+.hamburger.open span:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.open span:nth-child(2){
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* móvil: el menú se vuelve dropdown */
+@media (max-width: 900px){
+  .nav-inner{
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .nav-toggle{
+    display: inline-flex;
+    margin-left: auto;
+  }
+
+  .nav-links{
+    position: absolute;
+    top: 70px; /* debajo del navbar */
+    right: 22px;
+    left: 22px;
+
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 12px;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,.12);
+    background: rgba(7,4,15,.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 24px 80px rgba(0,0,0,.55);
+  }
+
+  .nav-links.open{
+    display: flex;
+    animation: dropIn .22s ease;
+  }
+
+  .nav-links a{
+    width: 100%;
+    padding: 12px 12px;
+    border-radius: 14px;
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(255,255,255,.08);
+  }
+
+  .type-text{
+    min-width: 0; /* evita que el logo fuerce el ancho */
+  }
+  .type-sub{
+    min-width: 0; /* evita que se corte */
+  }
+}
+
+@keyframes dropIn{
+  from{ opacity: 0; transform: translateY(-6px); }
+  to{ opacity: 1; transform: translateY(0); }
+}

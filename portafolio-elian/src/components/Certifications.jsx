@@ -5,6 +5,7 @@ export default function Certifications() {
     { title: "Data Engineer", org: "DataCamp", year: "2025" },
     { title: "Python Intermediate", org: "DataCamp", year: "2025" },
     { title: "Web Dreamweaver", org: "CENTU", year: "2021" },
+    { title: "Hardware y software informático", org: "COURSERA", year: "2026" },
   ];
 
   return (

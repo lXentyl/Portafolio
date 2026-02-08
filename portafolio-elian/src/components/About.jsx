@@ -30,6 +30,9 @@ export default function About() {
               <li>Interfaces modernas y consistentes</li>
               <li>Componentes reutilizables y orden en el código</li>
               <li>Micro-animaciones sutiles (sin recargar)</li>
+              <li>Fundamentos de Data Engineering y manejo de datos</li>
+              <li>Soporte técnico TI con enfoque profesional</li>
+              <li>Organización, documentación y escalabilidad del código</li>
             </ul>
           </article>
 

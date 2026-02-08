@@ -6,6 +6,8 @@ export default function Certifications() {
     { title: "Python Intermediate", org: "DataCamp", year: "2025" },
     { title: "Web Dreamweaver", org: "CENTU", year: "2021" },
     { title: "Hardware y software informático", org: "COURSERA", year: "2026" },
+    { title: "Datos, seguridad y privacidad", org: "COURSERA", year: "2026" },
+    { title: "Productividad y desarrollo de sistemas", org: "COURSERA", year: "2026" },
   ];
 
   return (

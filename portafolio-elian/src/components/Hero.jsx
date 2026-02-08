@@ -34,7 +34,7 @@ export default function Hero() {
 
           <div className="hero-badges slide-up delay-3">
             <span className="mini-pill">Frontend • React</span>
-            <span className="mini-pill">Automatización • n8n</span>
+            <span className="mini-pill">Chats de AI integradas en paginas webs</span>
             <span className="mini-pill">Soporte Técnico</span>
           </div>
 
@@ -71,7 +71,7 @@ export default function Hero() {
                 <ul className="hero-list">
                   <li>Landing pages y portafolios</li>
                   <li>UI elegante + micro-animaciones</li>
-                  <li>Automatización con n8n</li>
+                  <li>Integración de AI</li>
                 </ul>
               </div>
 

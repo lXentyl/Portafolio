@@ -8,7 +8,7 @@ export default function Projects() {
       desc: "Sitio web moderno con estructura clara, enfoque corporativo y presentación profesional.",
       img: "/proyecto1.png",
       link: "https://baramosingenieria.net/",
-      tags: ["React", "UI", "Landing"],
+      tags: ["React", "UI", "Landing", "Supabase", "Backend"],
     },
     {
       title: "Zyntex AI Solutions",

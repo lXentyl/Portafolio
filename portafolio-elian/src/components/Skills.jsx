@@ -2,7 +2,7 @@ import { IconCode, IconTools } from "./Icons";
 
 const groups = [
   { title: "Frontend", icon: <IconCode />, items: ["React", "Vite", "HTML5", "CSS"] },
-  { title: "Data / Backend", icon: <IconCode />, items: ["Python", "SQL"] },
+  { title: "Data / Backend", icon: <IconCode />, items: ["Python", "SQL", "Node.js"] },
   { title: "Herramientas", icon: <IconTools />, items: ["n8n", "GitHub", "Visual Studio Code", "Visual Studio"] },
 ];
 

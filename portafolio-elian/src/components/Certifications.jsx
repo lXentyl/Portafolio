@@ -8,6 +8,7 @@ export default function Certifications() {
     { title: "Hardware y software informático", org: "COURSERA", year: "2026" },
     { title: "Datos, seguridad y privacidad", org: "COURSERA", year: "2026" },
     { title: "Productividad y desarrollo de sistemas", org: "COURSERA", year: "2026" },
+    { title: "Certificado profesional de Soporte de TI de Google", org: "Google", year: "Cursando" },
   ];
 
   return (
